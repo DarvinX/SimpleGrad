@@ -10,4 +10,11 @@ A simple implementation of autograd and a pytorch-like framework around it. This
 
 
 ## Demo
-[MLP](https://github.com/DarvinX/SimpleGrad/blob/main/demo_MLP.ipynb)
+Trained an [MLP](https://github.com/DarvinX/SimpleGrad/blob/main/demo_MLP.ipynb) to classify digits dataset (from sklearn)
+
+#### Digits dataset
+![Digits dataset](./Images/digits.png)
+
+
+#### Training loss
+![Training loss](./Images/train_loss_mlp.png)
