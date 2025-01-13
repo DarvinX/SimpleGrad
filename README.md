@@ -41,6 +41,10 @@ List of all the methods/utilities that has been implemented in this repo.
 #### Loss Functions
 * Cross-Entropy
 * MSE
+  
+#### Utils
+* Plot gradient
+* Plot weights
 
 ## Demo
 Trained an [MLP](https://github.com/DarvinX/SimpleGrad/blob/main/demo_MLP.ipynb) to classify digits dataset (from sklearn)
