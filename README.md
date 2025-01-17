@@ -41,7 +41,11 @@ List of all the methods/utilities that has been implemented in this repo.
 #### Loss Functions
 * Cross-Entropy
 * MSE
-  
+
+#### Optimizers
+* Adam
+* SGD
+
 #### Utils
 * Plot gradient
 * Plot weights
@@ -54,4 +58,4 @@ Trained an [MLP](https://github.com/DarvinX/SimpleGrad/blob/main/demo_MLP.ipynb)
 
 
 #### Training loss
-![Training loss](./Images/train_loss_mlp.png)
+![Training loss](./Images/train_loss_mlp_adam.png)
