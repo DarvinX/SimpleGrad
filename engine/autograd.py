@@ -51,6 +51,15 @@ class Scalar:
 
     out._backward = _backward
     return out
+  
+  def __pow__(self, other):
+    out = Scalar(self.data ** other, children=[self])
+
+    def _backward():
+      self.grad += other * (self.data**(other-1)) * out.grad
+
+    out._backward = _backward
+    return out
 
   def backward(self):
     # Toposort

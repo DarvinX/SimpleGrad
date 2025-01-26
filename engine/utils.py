@@ -33,6 +33,7 @@ def elementwise_lst_op(lst_1, lst_2, op):
 
 def elementwise_op(lst_1, op):
   if isinstance(lst_1, Iterable):
+    # print(lst_1)
     return [elementwise_op(l,op) for l in lst_1]
   else:
     return op(lst_1)
