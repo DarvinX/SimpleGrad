@@ -58,4 +58,20 @@ Trained an [MLP](https://github.com/DarvinX/SimpleGrad/blob/main/demo_MLP.ipynb)
 
 
 #### Training loss
-![Training loss](./Images/train_loss_mlp_adam.png)
+<table style="padding:10px">
+  <tr>
+  <td>SGD</td>
+  <td>Adam</td>
+  <td>Adam + LayerNorm</td>
+  </tr>
+  <tr>
+    <td> 
+        <img src="./Images/train_loss_mlp.png" alt="1" height= 256px width = 256px ></td>
+    <td>
+        <img src="./Images/train_loss_mlp_adam.png" height= 256px width = 256px>
+    </td>
+    <td>
+        <img src="./Images/train_loss_mlp_adam_layernorm.png" alt="3" height= 256px width = 256px>
+    </td>
+  </tr>
+</table>
